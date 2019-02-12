@@ -19,11 +19,8 @@
     Country:
     
     <form:select path="country">
-     <form:option value="Ukraine" label="Ukraine" />
-     <form:option value="France" label="France" />
-     <form:option value="Germany" label="Germany" />
-     <form:option value="India" label="India" />
-     <form:option value="Brazil" label="Brazil" />
+     <form:options items="${theCountryOptions}" />
+
 
     </form:select>
 
