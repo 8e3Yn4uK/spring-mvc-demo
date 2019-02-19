@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 public @interface CourceCode {
 
     // define default course code
-    public String value() default "LUV";
+    public String[] value() default {"LUV"};
 
     // define default error message
     public String message() default "must start with LUV";
